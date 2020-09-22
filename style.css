@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--lightGray);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-text{
+    background-color: #ffffff;
+    padding: 35px;
+    color: var(--cyan);
+}
+
+.top-text h3{
+    margin: 20px 0;
+    color: var(--brightYellow);
+}
+
+
+.bottom-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #ffffff;
+    background: var(--cyan);
+}
+
+.month-sub{
+    width: 49%;
+    padding: 35px;
+    background-color: var(--cyan);
+}
+
+.why-us{
+    width: 51%;
+    padding: 35px;
+    background-color: var(--grayishBlue); 
+}
+
+.dollar{
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.p-dollar{
+    margin: 15px 0;
+    color: var(--lightGray);
+}
+
+.btn-sign{
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px 25px;
+    background: var(--brightYellow);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.specs{
+    list-style: none;
+    margin-top: 25px;
+    color: var(--lightGray);
+    font-weight: 400;
+}
